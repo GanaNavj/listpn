@@ -1,0 +1,13 @@
+l=[]
+c=0
+s=int(input("enter range"))
+for i in range(s):
+    x=int(input("enter elements"))
+    l.append(x)
+p=[]
+for i in l:
+    if(i!=0):
+        c=c+1
+        p.append(i)
+print("total non zero elements are:",c)
+print(p)
